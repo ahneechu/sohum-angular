@@ -1,0 +1,42 @@
+.footer{
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+}
+
+.footer a {
+  color: #d6d6d6;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.footer img{
+  height: 30px;
+  width: 30px;
+}
+
+.footer .socialBtns ul{
+  display: inline-block;
+}
+
+.footer .socialBtns li{
+  float: left;
+}
+.footer li{
+  text-indent: 20px;
+}
+
+#newsletterForm{
+  height: 34px;
+  border-radius: 0;
+}
+
+.joinBtn{
+  border-radius: 0;
+}

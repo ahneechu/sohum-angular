@@ -1,0 +1,10 @@
+<div id="gallery" class="clearfix">
+
+	<div class="newCollection" ng-repeat="collection in collections">
+		<a ng-href="{{collection.image}}" data-lightbox="2013collection" title="{{collection.title}}">
+			<img ng-src="{{collection.image}}" class="img-rounded"/>
+			<p class="cDetails">{{collection.details}}</p>
+			<p class="cPrice">{{collection.price | currency : $}}</p>
+		</a>
+	</div>
+</div>

@@ -1,0 +1,53 @@
+<div id="contact" class="contact clearfix">
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>We'd love to hear from you!</h1>
+		</div>
+
+		<div class="col-sm-6">
+			<div id="leftContact" class="clearfix">
+				<h3>You can like, follow and tweet us</h3>
+				<ul>
+					<li><a href="http://www.facebook.com"><img src="images/social-icon-facebook.png"/></a></li>
+					<li><a href="http://www.pinterest.com"><img src="images/social-icon-pinterest.png"/></a></li>
+					<li><a href="http://www.twitter.com"><img src="images/social-icon-twitter.png"/></a></li>
+				</ul>
+				<h3 class="contactInfo">Contact Us @</h3>
+					<p>general inquiries: general@sohumcollective.com</p>
+					<p>collection info: collection@sohumcollective.com</p>
+					<p>join the team: jointeam@sohumcollective.com</p>
+			</div>
+		</div>
+
+		<div class="col-sm-6">
+			<div id="rightContact" class="clearfix">
+				<h4>Send us your inquiries and we'll get back to you as soon as we can!</h4>
+				<form id="contactForm" class="form-horizontal" role="form">
+				  <div class="form-group" ng-class="{ 'has-error' : userFieldForm.email.$invalid }">
+				    <label for="inputName" class="col-sm-2 control-label">Name</label>
+				    <div class="col-sm-12">
+				      <input type="name" class="form-control" id="inputName" ng-model="user.name" placeholder="Name">
+				    </div>
+				  </div>
+				  <div class="form-group" ng-class="{ 'has-error' : userFieldForm.email.$invalid }">
+				    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+				    <div class="col-sm-12">
+				      <input type="email" class="form-control" id="inputEmail" ng-model="user.email" placeholder="Email">
+				    </div>
+				  </div>
+				  <div class="form-group" ng-class="{ 'has-error' : userFieldForm.email.$invalid }">
+				  	<label for="inputMessage" class="col-sm-2 control-label">Message</label>
+				  	<div class="col-sm-12">
+				  	<textarea class="form-control" rows="6" ng-model="user.message" placeholder="Message"></textarea>
+				  </div>
+				  <div class="form-group">
+				    <div class="col-xs-offset-4 col-sm-offset-5 col-xs-6">
+				      <button ng-click="save()" class="contactBtn btn btn-default">Submit</button>
+				    </div>
+				  </div>
+				</form>
+				<!-- <pre>form = {{master | json}}</pre> -->
+			</div>
+		</div>
+	</div>
+</div>

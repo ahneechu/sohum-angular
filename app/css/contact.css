@@ -1,0 +1,71 @@
+/*contact.html css*/
+
+/*.contact{
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+}*/
+
+.contact h1{
+	text-align: center;
+}
+
+#leftContact {
+	margin: 10px auto;
+	padding: 10px;
+}
+
+#leftContact ul{
+	display: inline-flex;
+	margin-left: 55px;
+}
+
+#leftContact li{
+	margin: 10px;
+}
+
+#leftContact img{
+	height: 70px;
+	width: 70px;
+}
+
+#leftContact p{
+	text-align: center;
+}
+
+.contactInfo{
+	margin-top: 40px;
+}
+
+
+#rightContact{
+	margin: 10px auto;
+	padding: 10px;
+	text-align: justify;
+}
+
+#rightContact h4{
+	text-align: left;
+	color: gray;
+}
+
+.contactBtn{
+	margin-top: 20px;
+	border-radius: 0;
+}
+
+.form-group{
+	margin-bottom: 0;
+}
+
+.form-control{
+	height: 50px;
+	border-radius: 0;
+}
+
+@media only screen and (min-width: 400px){
+	#leftContact ul{
+		margin-left: -15px;
+	}
+}
+
